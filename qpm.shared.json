@@ -1,0 +1,30 @@
+{
+  "$schema": "https://raw.githubusercontent.com/QuestPackageManager/QPM.Package/refs/heads/main/qpm.shared.schema.json",
+  "config": {
+    "version": "0.4.0",
+    "sharedDir": "json/include",
+    "dependenciesDir": "extern",
+    "info": {
+      "name": "json",
+      "id": "json",
+      "version": "0.1.0",
+      "url": "https://github.com/DanTheMan827-QPM/json",
+      "additionalData": {
+        "headersOnly": true,
+        "compileOptions": {
+          "systemIncludes": [
+            "json/include"
+          ]
+        }
+      }
+    },
+    "workspace": {
+      "scripts": {},
+      "qmodIncludeDirs": [],
+      "qmodIncludeFiles": [],
+      "qmodOutput": null
+    },
+    "dependencies": []
+  },
+  "restoredDependencies": []
+}
